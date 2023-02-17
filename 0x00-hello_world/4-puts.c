@@ -1,2 +1,2 @@
 #!/bin/bash
-puts("Programming is like building a multilingual puzzle ./n);  Return 0;
+#include<stdio.h> int main(){ char Mystr[] = "Programming is like building a multilingual puzzle; puts(Mystr); return 0;
