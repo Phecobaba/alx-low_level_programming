@@ -8,7 +8,6 @@
  */
 main()
 {
-	clrscr();
 	printf("    short int is %2d bytes \n", sizeof(short int));
 	printf("          int is %2d bytes \n", sizeof(int));
 	printf("        int * is %2d bytes \n", sizeof(int *));
