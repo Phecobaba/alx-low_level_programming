@@ -6,7 +6,7 @@
  * But you're free to use several lines to properly describe your function
  * Return: The paranthesized characters
  */
-main()
+int main(void)
 {
 	printf("    short int is %2d bytes \n", sizeof(short int));
 	printf("          int is %2d bytes \n", sizeof(int));
