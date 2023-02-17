@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - prints out the paranthesized text
+ * main- prints out the paranthesized text
  * Description: This is a longer description.
  *
  * Don't forget that a line should not exceed 80 characters.
