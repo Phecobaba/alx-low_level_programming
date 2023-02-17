@@ -6,21 +6,14 @@
  * But you're free to use several lines to properly describe your function
  * Return: The paranthesized characters
  */
-int main() {
-    char charType;	    
-    int intType;
-    long int intType
-    long long int intType	    
-    float floatType;
-    double doubleType;
-    
 
-    printf("Size of char: %zu byte\n", sizeof(charType));
-    printf("Size of an int: %zu bytes\n", sizeof(intType));
-    printf("Size of a long int: %zu bytes\n", sizeof(intType));
-    printf("Size of a long long: %zu bytes\n", sizeof(intType));
-    printf("size of a float: %zu bytes\n", sizeof(floatType));
-    
-    
-    return ;
+int main() {
+  printf("Size of Int Data Types in C = %2d bytes \n", sizeof(short int));
+  printf("Size of Long Int Data Types in C = %2d bytes \n", sizeof(long int));
+  printf("Size of Float Data Types in C = %2d bytes \n", sizeof(float));
+  printf("Size of Double Data Types in C = %2d bytes \n", sizeof(double));
+  printf("Size of Long Double Data Types in C = %2d bytes \n", sizeof(long double));
+  printf("Size of Char Data Types in C = %2d bytes \n", sizeof(char));
+  return 0;
+}
 
