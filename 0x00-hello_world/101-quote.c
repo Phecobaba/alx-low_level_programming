@@ -4,9 +4,10 @@
  * Return- it returns the value 1
  */
 
-int main(void) 
+
+int main(void)
 {
-char ch = "and that piece of art is useful" - Dora Korpar, 2015-10-19\n"	
-putchar(ch)
+write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 61);
+
 return (1);
-}
+} 
