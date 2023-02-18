@@ -1,4 +1,5 @@
-#include <stdio.h> 
+#include <stdio.h>
+
  /** 
  *main - prints the size of various types on the computer 
  *Return: 0 is exited properly 
