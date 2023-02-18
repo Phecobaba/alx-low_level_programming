@@ -9,10 +9,10 @@
 
 int main()
 {
-  printf("Size of Long Int Data Types in C = %2d bytes \n", sizeof(long int));
-  printf("Size of Float Data Types in C = %2d bytes \n", sizeof(float));
-  printf("Size of Long Long Data Types in C = %2d bytes \n", sizeof(long long int));
-  printf("Size of Char Data Types in C = %2d bytes \n", sizeof(char));
-  return 0;
-}
-
+  printf("Size of a char = %2d bytes \n", sizeof(char));
+  printf("Size of an int = %2d bytes \n", sizeof(int));
+  printf("Size of a long int = %2d bytes \n", sizeof(long int));
+  printf("Size of a long long int = %2d bytes \n", sizeof(long long int);
+  printf("Size of a float = %2d bytes \n", sizeof(long long int);
+ return (0);
+ } 
