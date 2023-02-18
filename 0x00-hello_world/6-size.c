@@ -11,7 +11,7 @@ int main() {
   printf("Size of a char Data Types in C = %2d bytes \n", sizeof(char));
   printf("Size of an Int Data Types in C = %2d bytes \n", sizeof(int));
   printf("Size of a long int Data Types in C = %2d bytes \n", sizeof(long int));
-  printf("Size of Long Long int Data Types in C = %2d bytes \n", sizeof(long double));
+  printf("Size of Long Long int Data Types in C = %2d bytes \n", sizeof(long long int));
   printf("Size of a float Data Types in C = %2d bytes \n", sizeof(float));
   return 0;
 }
