@@ -7,7 +7,7 @@
  * Return: The paranthesized characters
  */
 
-int main()
+int main(void)
 {
   printf("Size of a char = %2d bytes \n", sizeof(char));
   printf("Size of an int = %2d bytes \n", sizeof(int));
