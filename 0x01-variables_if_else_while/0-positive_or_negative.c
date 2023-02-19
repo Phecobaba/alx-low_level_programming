@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/** Main- calculates random number for positive, zero, and negative
+ * Return- Returns paranthesized value
+ */
+ 
 int main(void)
 {
 	int n;
