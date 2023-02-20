@@ -7,10 +7,11 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-for (ch= ‘a’; ch<= ‘z’; ch++)
+{
 
-                  putchar(ch);
+	for (i = ‘a’; i <= ‘z’; i++)
 
-                  putchar (‘\n’) ;
+	putchar(ch);
 
-                  getch();
+	putchar ("\n");
+}
