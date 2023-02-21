@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
+ * Description: 'the program's description to print_alphabet'
  *
  * Return: Always 0 (Success)
  */
