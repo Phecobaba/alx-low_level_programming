@@ -1,13 +1,18 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * Main- it describes the string
- * Return- it returns the value 1
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ *
+ * Return: Always 0 (Success)
  */
-
 
 int main(void)
 {
-fwrite(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 61);
+	write(2,
+	      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	      59);
 
-return (1);
-} 
+	return (1);
+}
