@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  *
@@ -14,7 +16,7 @@ int main(void)
 {
 	putchar(d);
 
-	if (d != 9)
+	if (d != '9')
 {
 	putchar(',');
 	putchar(' ');
