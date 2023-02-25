@@ -10,9 +10,10 @@ int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
 void jack_bauer(void);
-void times_table(void);
+void print_numbers(void);
 int mul(int a, int b);
 int _isupper(int c);
 int _isdigit(int c);
+int _putchar(char c);
 
 #endif
