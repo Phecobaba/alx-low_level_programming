@@ -7,7 +7,7 @@ void print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
-int _abs(int);
+void more_numbers(void);
 int print_last_digit(int);
 void print_most_numbers(void);
 void print_numbers(void);
