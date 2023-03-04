@@ -8,10 +8,10 @@
 
 int main(void)
 {
-        int a = 972, b = 98, c = 0;
+        int a = 972, b = -28, c = 0;
         int largest;
 
-        largest = a; b; c;
+        largest = (a,b,c);
 
         printf("%d is the largest number\n", largest);
 
