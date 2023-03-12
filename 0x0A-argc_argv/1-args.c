@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main- Returns the parameter
  *@argc: Parameter that counts inputs
@@ -11,14 +10,14 @@
  *Return: Always Return Success
  *
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	
-	(void)argv;
+
+	if (argv[0])
 
 	{
-	printf("%d\n", argc);
-	}	
+	printf("%d\n", argc - 1);
+	}
 	return (0);
 
 }
