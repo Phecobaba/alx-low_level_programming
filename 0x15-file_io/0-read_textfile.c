@@ -13,8 +13,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		FILE *fp;
 		char *buffer;
-		size_t num_read;
+		size_t num_read; 
 		ssize_t total_read = 0;
+	
 
 
 		fp = fopen(filename, "r");
