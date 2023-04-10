@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include "main.h"
 /**
- *create_file - Fuction that creates file
+ *create_file - Function that create file
  *@filename: Prameter for the filename
  *@text_content: Thecontent of the file name
  *DESCRIPTION: create_file, creates the file
