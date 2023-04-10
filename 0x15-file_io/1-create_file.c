@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
+#include <sys/stat.h>
 #include <unistd.h>
 #include "main.h"
 /**
- *create_file - Function that create file
- *@filename: Prameter for the filename
- *@text_content: Thecontent of the file name
- *DESCRIPTION: create_file, creates the file
- *RETURN: return value of create_file
+ *create_file - a new file with the specified name
+ * @filename: The name of the file to create.
+ *@text_content: content of the file
+ *Descriiption: create_file, creates the file
+ *RETURN: return create_file
  */
 int create_file(const char *filename, char *text_content)
 {
