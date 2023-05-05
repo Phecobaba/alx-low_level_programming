@@ -6,7 +6,7 @@
 /**
  *binary_to_uint - it converts binary to unsigned value
  * @b: pointer to integer
- * RETURN: returns either 0
+ * Return: return either 0
  * or the result
  */
 
